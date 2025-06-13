@@ -34,7 +34,7 @@ Congress finds the following:
     (A) Median per‑patient cost for a phase‑3 drug trial in 2024 exceeded **\$43,000**\[2], inflating drug prices and limiting R‑&‑D on unpatentable therapies.
     (B) Up to **85 percent of patients** are excluded from participating in pivotal trials, limiting the generalizability of findings to real-world patient populations.
     (C) The failure to publish negative results leads to redundant research, while rigid trial designs that cannot adapt to incoming data stifle innovation.
-    (D) The short duration of most trials results in a critical lack of data on the long-term safety and efficacy of interventions.
+    (D) The short duration of most trials results in a critical lack of data on the long-term safety and efficacy of an intervention.
 3. As a consequence of these systemic failures, an estimated **95 percent of rare diseases lack a single FDA-approved treatment**, and effective therapies for common conditions remain undiscovered or inaccessible.
 4. The U.K. **RECOVERY** pragmatic trial enrolled 49,000 patients in 100 days at roughly **\$500 per patient**\[3], demonstrating that a decentralized, adaptive model can reduce the non-biologic operational costs of clinical research by over **90 percent** through automation of data management, monitoring, and administrative functions.
 5. The strategic application of artificial intelligence in healthcare has the potential to yield substantial economic benefits, with studies indicating that AI could reduce national healthcare spending by 5 to 10 percent annually by optimizing diagnostics, personalizing treatments, and improving the efficiency of health-related research and development.
@@ -204,9 +204,9 @@ In this Act—
 ### SEC. 403. IMPLEMENTATION TIMELINE
 
 * **180 days:** Interim rules; beta e‑protocol builder; transparency website live.
-* **12 months:** FDA v2 Platform MVP; insurance exchange; blockchain ledger operational.
-* **24 months:** Universal enrolment guarantee active; subsidies flowing.
-* **36 months:** First GAO report to Congress.
+* **24 months:** FDA v2 Platform MVP; insurance exchange; blockchain ledger operational.
+* **36 months:** Universal enrolment guarantee active; subsidies flowing.
+* **48 months:** First GAO report to Congress.
 
 ### SEC. 404. STRATEGY FOR GLOBAL GOVERNANCE AND DECENTRALIZATION
 
@@ -246,8 +246,8 @@ If any provision of this Act is held invalid, the remainder shall remain in effe
 ### REFERENCES
 
 \[1] ClinicalTrials.gov FY 2024 Annual Report, Table 4 (trial enrollment).
-\[2] FDA/CDER *Estimating the Cost of Phase‑3 Trials* (2024), Table 3.
-\[3] RECOVERY Collaborative Group, "Cost‑efficient Platform Design," *Health Technology Assessment Meeting*, 2022.
+\[2] Moore, T. J., Zhang, H., Anderson, G., & Alexander, G. C. (2018). Estimated Costs of Pivotal Trials for Novel Therapeutic Agents Approved by the US Food and Drug Administration, 2015-2016. *JAMA Internal Medicine*, 178(11), 1451–1457.
+\[3] See [Decentralized Pragmatic Trials (RECOVERY)](./../reference/recovery-trial.md) analysis, citing UKRI, Manhattan Institute, and others.
 \[4] openFDA GitHub Repository, [https://github.com/FDA](https://github.com/FDA).
 \[5] 44 U.S.C. § 3507(h) fast‑track provision; Administrative Conference PRA Study (2012).
 \[6] FedRAMP FAQ, 'Understanding Baselines & Impact Levels' (2024).

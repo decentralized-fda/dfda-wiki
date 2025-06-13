@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Sourcing and Citation Standard
+
+To ensure credibility, all factual claims must be cited. Follow this procedure:
+
+1.  **Find a High-Quality Source**: Use web search tools (e.g., `mcp_exa_web_search_exa`) for reputable sources like academic journals, government reports, or major news outlets.
+
+2.  **Hyperlink In-Text**: Add a markdown link `[claim](mdc:source_url)` directly at the point of the claim.
+
+3.  **Add Source Quote Section**: At the end of the file, create a section (e.g., `### Source Quotes for Key Parameters`) if it doesn't exist.
+
+4.  **Add Full Citation**: In the source section, add:
+    *   A label for the claim: `* **Claim Label**`
+    *   The supporting quote: `> "Direct quote from source..."`
+    *   The citation: `— Source Name, Date, [URL](mdc:source_url)`
+
+## Example
+
+### In-Text Claim:
+```markdown
+...the total investment required to fund a global dFDA platform initiative...can be estimated to be in the range of **\$50 million to \$500 million**, with market leaders like **Medable** raising over **[\$521 million](mdc:https:/hitconsultant.net/2021/10/26/medable-dct-series-d-funding)**.
+```
+
+### At the End of the File:
+```markdown
+### Source Quotes for Key Parameters
+
+* **\$521M raised by Medable**
+  > "Decentralized Clinical Trials (DCT) leader Medable, today announced a \$304M Series D funding round today – the company's largest and fourth funding round in 18 months, bringing total capital raised to \$521M – and valuation to \$2B+."
+  > — [HIT Consultant, Oct 2021](mdc:https:/hitconsultant.net/2021/10/26/medable-dct-series-d-funding)
+```
+
+
+

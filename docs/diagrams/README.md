@@ -37,10 +37,10 @@ C4Context
     Rel_L(dfda_platform, payment, "Processes payments via", "API")
     Rel_R(dfda_platform, national_systems, "Shares & receives data with", "API, Interoperability Framework")
 
-    UpdateElementStyle(patient, $bgColor="lightgrey", $fontColor="black", $borderColor="black")
-    UpdateElementStyle(creator, $bgColor="lightgrey", $fontColor="black", $borderColor="black")
-    UpdateElementStyle(regulator, $bgColor="lightgrey", $fontColor="black", $borderColor="black")
-    UpdateElementStyle(dfda_platform, $bgColor="blue", $fontColor="white", $borderColor="blue")
+    UpdateElementStyle(patient, "lightgrey", "black", "black")
+    UpdateElementStyle(creator, "lightgrey", "black", "black")
+    UpdateElementStyle(regulator, "lightgrey", "black", "black")
+    UpdateElementStyle(dfda_platform, "blue", "white", "blue")
 ```
 
 ## C4 Container Diagram
@@ -103,11 +103,8 @@ C4Container
     Rel(ingestion_api, ehr, "Fetches data from (via plugins)", "HTTPS/API")
     Rel_R(api_gateway, github, "Receives webhooks from (for CI/CD)", "HTTPS")
     
-    UpdateElementStyle(portal, $bgColor="lightblue")
-    UpdateElementStyle(api_gateway, $bgColor="lightgrey")
-    UpdateElementStyle(api_services, $text="Backend API Services")
-    UpdateElementStyle(processing_services, $text="Asynchronous Processing")
-    UpdateElementStyle(storage_services, $text="Data Storage")
+    UpdateElementStyle(portal, "lightblue")
+    UpdateElementStyle(api_gateway, "lightgrey")
 ```
 
 ## Other Diagrams
